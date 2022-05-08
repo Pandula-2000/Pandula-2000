@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Pandula, an hungry Enginnering student
+- 👋 Hi, I’m Pandula, a hungry Enginnering student
 - 👀 I’m interested in Machine learning, Programming, Embedded systems and IOT, solving puzzles
 - 🌱 I’m currently learning Electrical and Electronics engineering
 - 📫 Reach me through pandula66@gmail.com
