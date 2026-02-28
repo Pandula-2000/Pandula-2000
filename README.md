@@ -17,6 +17,13 @@
 <img src="https://img.shields.io/badge/Implicit%20Neural%20Representations-2C3E50?style=for-the-badge" alt="Implicit Neural Representations" />
 <img src="https://img.shields.io/badge/Smart%20Grid%20Analytics-2C3E50?style=for-the-badge" alt="Smart Grid Analytics" />
 
+<br><br>
+
+<!-- Profiles & Contact -->
+<a href="mailto:pandula66@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://scholar.google.com/citations?user=wXn4uy8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar" /></a>
+<a href="https://orcid.org/0009-0008-5133-3450" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
+
 </div>
 
 <hr>
@@ -28,8 +35,6 @@
 <li>🤝 Collaborating <b>Research Assistant</b> at <b><a href="https://marc.pdn.ac.lk/index.html">MARC</a></b>.</li>
 <li>🧠 Deeply interested in <b>theory-grounded Machine Learning</b> and applying advanced mathematics to engineering challenges.</li>
 </ul>
-
-<h3>📚 Recent Publications</h3>
 
 <h3>📚 Recent Publications</h3>
 
