@@ -1,78 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Profile Preview</title>
-  <!-- Using GitHub's markdown CSS for an authentic look -->
-  <link id="theme-style" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-light.min.css">
-  <style>
-    :root {
-      --bg-color: #ffffff;
-    }
-    [data-theme="dark"] {
-      --bg-color: #0d1117;
-    }
-    body {
-      box-sizing: border-box;
-      min-width: 200px;
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 45px;
-      background-color: var(--bg-color);
-      transition: background-color 0.3s ease;
-    }
-    .markdown-body {
-      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    }
-    h3 {
-      border-bottom: 1px solid #d0d7de;
-      padding-bottom: 0.3em;
-      margin-top: 24px;
-      margin-bottom: 16px;
-      font-weight: 600;
-      line-height: 1.25;
-    }
-    ul {
-      margin-top: 0;
-      margin-bottom: 16px;
-      padding-left: 2em;
-    }
-    li {
-      margin-top: 0.25em;
-    }
-    .theme-toggle-btn {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      padding: 8px 16px;
-      background-color: #3776AB;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: bold;
-      font-family: inherit;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-      transition: background-color 0.2s, color 0.2s;
-      z-index: 1000;
-    }
-    .theme-toggle-btn:hover {
-      background-color: #2c5d86;
-    }
-    [data-theme="dark"] .theme-toggle-btn {
-      background-color: #58A6FF;
-      color: #0d1117;
-    }
-    [data-theme="dark"] .theme-toggle-btn:hover {
-      background-color: #3182ce;
-    }
-  </style>
-</head>
-<body class="markdown-body" data-theme="light">
-
-<button id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
-
 <div align="center">
 
 <h1>Hello There! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
@@ -136,45 +61,20 @@ Brief description of the research outcomes and trade-offs analyzed.
 <h3>📊 GitHub Profile Status</h3>
 
 <div align="center">
-<img id="github-stats" src="https://github-readme-stats.vercel.app/api?username=Pandula-2000&show_icons=true&theme=transparent&hide_border=true&title_color=3776AB&icon_color=3776AB&text_color=000000" alt="Pandula's GitHub Stats" />
-<br>
-<br>
-<img id="github-streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Pandula-2000&theme=transparent&hide_border=true&title_color=3776AB&icon_color=3776AB&text_color=000000" alt="Pandula's GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Pandula-2000&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Pandula-2000&show_icons=true&theme=transparent&hide_border=true&title_color=3776AB&icon_color=3776AB&text_color=000000">
+    <img src="https://github-readme-stats.vercel.app/api?username=Pandula-2000&show_icons=true&theme=transparent&hide_border=true&title_color=3776AB&icon_color=3776AB&text_color=000000" alt="Pandula's GitHub Stats" />
+  </picture>
+  <br><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Pandula-2000&theme=transparent&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Pandula-2000&theme=transparent&hide_border=true&title_color=3776AB&icon_color=3776AB&text_color=000000">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pandula-2000&theme=transparent&hide_border=true&title_color=3776AB&icon_color=3776AB&text_color=000000" alt="Pandula's GitHub Streak" />
+  </picture>
 </div>
 
 <hr>
 <div align="center">
 <p><i>Constantly learning, researching, and engineering until I win.</i></p>
 </div>
-
-<script>
-  const toggleBtn = document.getElementById('theme-toggle');
-  const themeStyle = document.getElementById('theme-style');
-  const statsImg = document.getElementById('github-stats');
-  const streakImg = document.getElementById('github-streak');
-
-  toggleBtn.addEventListener('click', () => {
-    const currentTheme = document.body.getAttribute('data-theme');
-    
-    if (currentTheme === 'light') {
-      document.body.setAttribute('data-theme', 'dark');
-      themeStyle.href = 'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-dark.min.css';
-      toggleBtn.textContent = '☀️ Light Mode';
-      
-      // Update GitHub stats images for dark mode visibility (lighter text, bright blue title)
-      statsImg.src = "https://github-readme-stats.vercel.app/api?username=Pandula-2000&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9";
-      streakImg.src = "https://github-readme-streak-stats.herokuapp.com/?user=Pandula-2000&theme=transparent&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9";
-    } else {
-      document.body.setAttribute('data-theme', 'light');
-      themeStyle.href = 'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-light.min.css';
-      toggleBtn.textContent = '🌙 Dark Mode';
-      
-      // Revert GitHub stats images back to light mode variables
-      statsImg.src = "https://github-readme-stats.vercel.app/api?username=Pandula-2000&show_icons=true&theme=transparent&hide_border=true&title_color=3776AB&icon_color=3776AB&text_color=000000";
-      streakImg.src = "https://github-readme-streak-stats.herokuapp.com/?user=Pandula-2000&theme=transparent&hide_border=true&title_color=3776AB&icon_color=3776AB&text_color=000000";
-    }
-  });
-</script>
-
-</body>
-</html>
