@@ -79,6 +79,19 @@
 </div>
 
 <hr>
+<br>
+
 <div align="center">
-<p><i>Constantly learning, researching, and engineering until I win.</i></p>
+  <table>
+    <tr>
+      <td align="center" width="120">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/500px-Richard_Feynman_Nobel.jpg" width="90" alt="Richard Feynman" style="border-radius: 50%;">
+      </td>
+      <td align="left">
+        <i>"I learned very early the difference between knowing the name of something and knowing something."</i>
+        <br><br>
+        <div align="right"><b>— Richard Feynman</b></div>
+      </td>
+    </tr>
+  </table>
 </div>
