@@ -4,7 +4,7 @@
 
 <p><em>I am an Electrical & Electronic Engineering graduate and Research Engineer passionate about theory-grounded Machine Learning and advanced mathematical modeling.</em></p>
 
-<img src="https://media.giphy.com/media/apqeXJWUc9hVrUysUD/giphy.gif" width="350" alt="Trending FYP Until I Win GIF">
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDJkZzk2dW1vbXZ4N25zMGNhZXY5dmhwMnR2bTgweXN0ZTIxYTZieCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HjeIqm3MxURFK/giphy.gif" width="600" alt="hyperDrive">
 
 <br><br>
 
